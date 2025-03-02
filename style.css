@@ -8,24 +8,23 @@ body {
     width: auto;
     height: auto;
     display: flex;
-    padding: 11px;
     flex-direction: column;
-    padding: 20px 16px 80px 16px;
-    gap: 70px;
+    gap: 10px;
     background-image: url("bgrp.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .hero {
+    background: blue;
     display: flex;
     width: 100%;
     height: auto;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 70px;
-    padding: 55px 25px 20px 25px;
+    gap: 50px;
+    padding: 55px 25px 50px 25px;
 }
 
 .text-container {
@@ -40,35 +39,46 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     text-align: center;
+    color: #080808;
 }
 
 h1 > .emp {
-    color: #1f45ec;
+    color: #05ffd5;
 }
 
 h2 {
     font-size: 16px;
-    color: grey;
+    color: #a1a1a1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 h3 {
-    padding: 30px 0px 0px 0px;
+    color: #ffffff;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-weight: 400;
-    line-height: 24px
+    font-weight: 700;
+    line-height: 24px;
+    width: 80%;
+}
+
+.cta-content-block {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px 0px solid #302f2f;
+    border-radius: 16px;
 }
 
 .cta {
     display: block;
+    font-weight: 900;
     align-self: center;
     width: 250px;
     height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1f45ec;
+    background-color: red;
     border: 0;
     border-radius: 8px;
     color: #ffffff;
@@ -121,15 +131,17 @@ h3 {
 }
 
 .hs1 {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 24px;
     text-align: left;
-    font-size: 17px;
-    line-height: 24px;
 }
 
 .header {
-    font-variant: small-caps;
-    text-align: left;
-    font-size: 21px;
+    /* font-variant: small-caps; */
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
     color: #5a5a5a;
 }
 
@@ -234,6 +246,7 @@ h6 {
     font-size: 14px;
     color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px 10px 20px 0px;
 }
 
 /* For mobile phones: */
@@ -268,7 +281,7 @@ h6 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 70px;
+        gap: 40px;
     }
     
     .image-container-1 {
