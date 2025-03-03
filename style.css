@@ -16,7 +16,7 @@ body {
 }
 
 .hero {
-    background: blue;
+    background: #0000ff;
     display: flex;
     width: 100%;
     height: auto;
@@ -60,7 +60,7 @@ h3 {
     text-align: center;
     font-weight: 700;
     line-height: 24px;
-    width: 80%;
+    width: 100%;
 }
 
 .cta-content-block {
@@ -69,6 +69,19 @@ h3 {
     background-color: #ffffff;
     box-shadow: 0px 3px 3px 0px solid #302f2f;
     border-radius: 16px;
+}
+
+.span-style {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.cta-content-block li {
+    color: #6d6d6d;
+    list-style: none;
 }
 
 .cta {
@@ -133,16 +146,17 @@ h3 {
 .hs1 {
     font-size: 15px;
     line-height: 16px;
-    padding: 24px;
+    padding: 26px;
     text-align: left;
 }
 
 .header {
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
     text-align: center;
+    /* text-decoration: underline; */
     font-weight: 900;
     font-size: 17px;
-    color: #5a5a5a;
+    color: #000000;
 }
 
 .warning-text {
@@ -176,6 +190,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     gap: 70px;
+    width: 100%;
 }
 
 .image-container-1 {
