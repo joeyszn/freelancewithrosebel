@@ -189,8 +189,9 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
-    width: 100%;
+    gap: 40px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
 }
 
 .image-container-1 {
@@ -241,6 +242,16 @@ h3 {
 }
 
 .image-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    height: auto;
+    background-color: transparent;
+    gap: 50px;
+}
+
+.image-container-3 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -297,6 +308,8 @@ h6 {
         flex-direction: column;
         align-items: center;
         gap: 40px;
+        background-color: #ffffff;
+        padding-bottom: 20px;
     }
     
     .image-container-1 {
